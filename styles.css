@@ -1,1 +1,28 @@
-/*  your css code here. If applicable */
+:root {
+  --body: skyblue;
+  --first-para-background: black;
+  --last-para-background: red;
+  --list-items-background-1: white;
+  --list-items-background-2: gray;
+  --list-items-background-3: pink;
+}
+body {
+  background-color: var(--body);
+}
+p:first-child {
+  background-color: var(--first-para-background);
+  color: white;
+}
+p:last-child {
+  color: var(--last-para-background);
+}
+li:nth-child(2n) {
+  background-color: var(--list-items-background-2);
+}
+li:nth-child(2n + 1) {
+  background-color: var(--list-items-background-3);
+}
+li:first-child,
+li:last-child {
+  background-color: var(--list-items-background-1);
+}
