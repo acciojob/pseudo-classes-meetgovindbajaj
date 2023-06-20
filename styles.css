@@ -1,30 +1,22 @@
 :root {
-  --color_black: black;
-  --color_stalegray: gray;
-  --color_pink: pink;
-  --color_skyblue: rgb(135, 206, 235);
-  --color_red: red;
-  --color_white: white;
-  background: var(--color_skyblue);
+  background-color: skyblue;
 }
 body {
-  background: var(--color_skyblue);
-  background-color: var(--color_skyblue);
+  background-color: skyblue;
 }
-p:first-of-type {
-  background-color: var(--color_black);
-  color: var(--color_white);
+div > p:first-child {
+  background-color: black;
+  color: white;
 }
-p:last-of-type {
-  background-color: inherit;
-  color: var(--color_red);
+div > p:last-child {
+  color: red;
 }
 li:nth-child(2n) {
-  background-color: var(--color_stalegray);
+  background-color: gray;
 }
 li:nth-child(2n + 1) {
-  background-color: var(--color_white);
+  background-color: white;
 }
 li:nth-child(3) {
-  background-color: var(--color_pink);
+  background-color: pink;
 }
