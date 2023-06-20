@@ -1,22 +1,16 @@
 :root {
-  background-color: skyblue;
+  background-color: rgb(135, 206, 235);
 }
-body {
-  background-color: skyblue;
-}
-div > p:first-child {
-  background-color: black;
-  color: white;
-}
-div > p:last-child {
-  color: red;
+p:last-child {
+  color: rgb(255, 0, 0);
 }
 li:nth-child(2n) {
-  background-color: gray;
+  background-color: rgb(128, 128, 128);
 }
-li:nth-child(2n + 1) {
-  background-color: white;
+li:nth-child(2n + 1),
+p:first-child {
+  background-color: rgb(255, 255, 255);
 }
 li:nth-child(3) {
-  background-color: pink;
+  background-color: rgb(255, 192, 203);
 }
