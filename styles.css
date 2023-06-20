@@ -5,15 +5,19 @@
   --color_skyblue: rgb(135, 206, 235);
   --color_red: red;
   --color_white: white;
-  background-color: rgb(135, 206, 235);
+  background: var(--color_skyblue);
 }
-p:first-child {
+body {
+  background: var(--color_skyblue);
+  background-color: var(--color_skyblue);
+}
+p:first-of-type {
   background-color: var(--color_black);
-  color: var(--color_white) !important;
+  color: var(--color_white);
 }
-p:last-child {
+p:last-of-type {
   background-color: inherit;
-  color: var(--color_red) !important;
+  color: var(--color_red);
 }
 li:nth-child(2n) {
   background-color: var(--color_stalegray);
