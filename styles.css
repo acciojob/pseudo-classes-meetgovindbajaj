@@ -1,14 +1,16 @@
 :root {
   background-color: rgb(135, 206, 235);
 }
+p:first-child {
+  color: rgb(255, 255, 255);
+}
 p:last-child {
   color: rgb(255, 0, 0);
 }
 li:nth-child(2n) {
   background-color: rgb(128, 128, 128);
 }
-li:nth-child(2n + 1),
-p:first-child {
+li:nth-child(2n + 1) {
   background-color: rgb(255, 255, 255);
 }
 li:nth-child(3) {
