@@ -3,6 +3,7 @@
 }
 p:first-child {
   color: rgb(255, 255, 255);
+	background:rgb(0,0,0);
 }
 p:last-child {
   color: rgb(255, 0, 0);
